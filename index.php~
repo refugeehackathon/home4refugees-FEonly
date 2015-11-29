@@ -12,8 +12,6 @@
     <!-- Bootstrap -->
     <link href="_/css/bootstrap.css" rel="stylesheet">
     <link href="_/css/mystyles.css" rel="stylesheet">
-    <link href="css/mystyles.css" rel="stylesheet">
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,29 +19,24 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body id="home" class="main_image">
+  <body id="home">
 
 
       <section class="container">
          <div class="content row">
 
-          <section class="main col col-xs-12 " >
+          <section class="main col col-lg-12 " >
           <?php include "_/components/php/header.php" ?>
-          <?php include "_/components/php/body.php" ?>
-          <!--
-          <?php include "_/components/php/footer.php" ?>
-        -->
           </section> <!--  end of content -->
 
+          <section class="sidebar col col-lg-12 " >
 
+          </section> <!-- sidebar -->
 
          </div>  <!--  end of content -->
 
-
       </section> <!--  Container -->
 
-      <!-- Footer -->
-      <?php include "_/components/php/footer.php" ?>
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="_/js/bootstrap.js"></script>
